@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ### Primary */
+
+  --Soft-orange: hsl(35, 77%, 62%);
+  --Soft-red: hsl(5, 85%, 63%);
+
+  /* ### Neutral */
+
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayish-blue: hsl(233, 8%, 79%);
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+}
+
+#root{
+  display: flex;
+  direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: var(--Off-white);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  margin-top: 0px;
+  padding: 30px 20px 0 20px;
+}
+
+
+/*-----------------------------------(>1150px)---------------------------------*/
+@media only screen and (min-width: 1150px) {
+
+
+
+  .main{
+    display: grid;
+    grid-template: "menu menu menu" auto
+                         "principal principal text" auto
+                         "image image image" auto / 4fr 4fr 4fr;
+    width: 1110px;
+    grid-column-gap: 20px;
+    grid-row-gap:  0px;
+    margin: 70px 0;
+    padding-top: 0;
+  }
+
+
+}

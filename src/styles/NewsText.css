@@ -1,0 +1,22 @@
+.NewsText{
+    background-color: var(--Very-dark-blue);
+    color: var(--Off-white);
+    padding: 20px;
+    margin-bottom: 64px;
+}
+
+.h1-NewsText{
+    padding-bottom: 20px;
+    color: var(--Soft-orange);
+}
+
+@media only screen and (min-width: 1150px) {
+
+  .NewsText{
+    grid-area: text;
+    margin-bottom: 64px;
+    height: auto;
+    align-self: flex-start;
+  }
+
+}

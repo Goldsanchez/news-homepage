@@ -1,0 +1,36 @@
+.NewsWithImageComponent{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.right-NewsWithImageComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-NewsWithImageComponent{
+    width: 100px;
+}
+
+.number-NewsWithImagecomponent{
+    font-size: 30px;
+    color: var(--Grayish-blue);
+    font-weight: 800;
+}
+
+.h3-NewsWithImagecomponent{
+    font-weight: 600;
+
+}
+
+.h3-NewsWithImagecomponent:hover{
+    color: var(--Soft-red);
+    cursor: pointer;
+}
+
+.paragraph-NewsWithImagecomponent{
+    color: var(--Dark-grayish-blue);
+    line-height: 25px;
+}
