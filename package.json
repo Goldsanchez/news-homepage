@@ -1,7 +1,7 @@
 {
   "name": "news-homepage",
   "version": "0.1.0",
-  "homepage": "https://Goldsanchez.github.io/news-homepage",
+  "homepage": "https://goldsanchez.github.io/news-homepage",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
